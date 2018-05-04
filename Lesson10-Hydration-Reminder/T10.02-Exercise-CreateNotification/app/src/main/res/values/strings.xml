@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">"Hydration Reminder"</string>
+    <string name="water_reminder_notification_channel">
+        Water Reminder Notification Channel
+    </string>
+
 
     <!-- Strings for the MainActivity -->
     <string name="instructions">

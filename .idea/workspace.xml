@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60572ac4-d384-4313-9c22-0beea7ba95e0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout/app/build.gradle" afterPath="$PROJECT_DIR$/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout/app/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout/build.gradle" afterPath="$PROJECT_DIR$/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson01-Favorite-Toys/T01.02-Exercise-DisplayToyList/app/src/main/java/com/example/android/favoritetoys/MainActivity.java" afterPath="$PROJECT_DIR$/Lesson01-Favorite-Toys/T01.02-Exercise-DisplayToyList/app/src/main/java/com/example/android/favoritetoys/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson01-Favorite-Toys/T01.02-Exercise-DisplayToyList/app/src/main/java/com/example/android/favoritetoys/ToyBox.java" afterPath="$PROJECT_DIR$/Lesson01-Favorite-Toys/T01.02-Exercise-DisplayToyList/app/src/main/java/com/example/android/favoritetoys/ToyBox.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson01-Favorite-Toys/T01.02-Exercise-DisplayToyList/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Lesson01-Favorite-Toys/T01.02-Exercise-DisplayToyList/app/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson01-Favorite-Toys/T01.02-Exercise-DisplayToyList/build.gradle" afterPath="$PROJECT_DIR$/Lesson01-Favorite-Toys/T01.02-Exercise-DisplayToyList/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson01-Favorite-Toys/T01.02-Exercise-DisplayToyList/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson01-Favorite-Toys/T01.02-Exercise-DisplayToyList/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.02-Exercise-AddMenu/app/src/main/java/com/example/android/datafrominternet/MainActivity.java" afterPath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.02-Exercise-AddMenu/app/src/main/java/com/example/android/datafrominternet/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.02-Exercise-AddMenu/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.02-Exercise-AddMenu/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.02-Exercise-AddMenu/build.gradle" afterPath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.02-Exercise-AddMenu/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.02-Exercise-AddMenu/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.02-Exercise-AddMenu/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.03-Exercise-DisplayUrl/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.03-Exercise-DisplayUrl/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.03-Exercise-DisplayUrl/app/src/main/java/com/example/android/datafrominternet/MainActivity.java" afterPath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.03-Exercise-DisplayUrl/app/src/main/java/com/example/android/datafrominternet/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.03-Exercise-DisplayUrl/app/src/main/java/com/example/android/datafrominternet/utilities/NetworkUtils.java" afterPath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.03-Exercise-DisplayUrl/app/src/main/java/com/example/android/datafrominternet/utilities/NetworkUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.03-Exercise-DisplayUrl/build.gradle" afterPath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.03-Exercise-DisplayUrl/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.03-Exercise-DisplayUrl/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.03-Exercise-DisplayUrl/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.05-Exercise-CreateAsyncTask/app/src/main/java/com/example/android/datafrominternet/MainActivity.java" afterPath="$PROJECT_DIR$/Lesson02-GitHub-Repo-Search/T02.05-Exercise-CreateAsyncTask/app/src/main/java/com/example/android/datafrominternet/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.02-Exercise-ViewHolder/app/src/main/java/com/example/android/recyclerview/GreenAdapter.java" afterPath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.02-Exercise-ViewHolder/app/src/main/java/com/example/android/recyclerview/GreenAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.02-Exercise-ViewHolder/build.gradle" afterPath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.02-Exercise-ViewHolder/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.02-Exercise-ViewHolder/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.02-Exercise-ViewHolder/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.03-Exercise-RecyclerViewAdapter/app/src/main/java/com/example/android/recyclerview/GreenAdapter.java" afterPath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.03-Exercise-RecyclerViewAdapter/app/src/main/java/com/example/android/recyclerview/GreenAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.03-Exercise-RecyclerViewAdapter/build.gradle" afterPath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.03-Exercise-RecyclerViewAdapter/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.03-Exercise-RecyclerViewAdapter/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.03-Exercise-RecyclerViewAdapter/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.04-Exercise-WiringUpRecyclerView/app/src/main/java/com/example/android/recyclerview/MainActivity.java" afterPath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.04-Exercise-WiringUpRecyclerView/app/src/main/java/com/example/android/recyclerview/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.04-Exercise-WiringUpRecyclerView/build.gradle" afterPath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.04-Exercise-WiringUpRecyclerView/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.04-Exercise-WiringUpRecyclerView/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.04-Exercise-WiringUpRecyclerView/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.07-Exercise-RecyclerViewClickHandling/app/src/main/java/com/example/android/recyclerview/GreenAdapter.java" afterPath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.07-Exercise-RecyclerViewClickHandling/app/src/main/java/com/example/android/recyclerview/GreenAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.07-Exercise-RecyclerViewClickHandling/app/src/main/java/com/example/android/recyclerview/MainActivity.java" afterPath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.07-Exercise-RecyclerViewClickHandling/app/src/main/java/com/example/android/recyclerview/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.07-Exercise-RecyclerViewClickHandling/build.gradle" afterPath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.07-Exercise-RecyclerViewClickHandling/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.07-Exercise-RecyclerViewClickHandling/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson03-Green-Recycler-View/T03.07-Exercise-RecyclerViewClickHandling/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson04a-Starting-New-Activities/T04a.01-Exercise-AddNewActivity/app/build.gradle" afterPath="$PROJECT_DIR$/Lesson04a-Starting-New-Activities/T04a.01-Exercise-AddNewActivity/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson04a-Starting-New-Activities/T04a.01-Exercise-AddNewActivity/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Lesson04a-Starting-New-Activities/T04a.01-Exercise-AddNewActivity/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson04a-Starting-New-Activities/T04a.01-Exercise-AddNewActivity/app/src/main/java/com/example/android/explicitintent/MainActivity.java" afterPath="$PROJECT_DIR$/Lesson04a-Starting-New-Activities/T04a.01-Exercise-AddNewActivity/app/src/main/java/com/example/android/explicitintent/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson04a-Starting-New-Activities/T04a.01-Exercise-AddNewActivity/build.gradle" afterPath="$PROJECT_DIR$/Lesson04a-Starting-New-Activities/T04a.01-Exercise-AddNewActivity/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson04a-Starting-New-Activities/T04a.01-Exercise-AddNewActivity/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson04a-Starting-New-Activities/T04a.01-Exercise-AddNewActivity/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson04b-Webpages-Maps-and-Sharing/T04b.01-Exercise-OpenWebpage/app/src/main/java/com/example/android/implicitintents/MainActivity.java" afterPath="$PROJECT_DIR$/Lesson04b-Webpages-Maps-and-Sharing/T04b.01-Exercise-OpenWebpage/app/src/main/java/com/example/android/implicitintents/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson04b-Webpages-Maps-and-Sharing/T04b.01-Exercise-OpenWebpage/build.gradle" afterPath="$PROJECT_DIR$/Lesson04b-Webpages-Maps-and-Sharing/T04b.01-Exercise-OpenWebpage/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson04b-Webpages-Maps-and-Sharing/T04b.01-Exercise-OpenWebpage/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson04b-Webpages-Maps-and-Sharing/T04b.01-Exercise-OpenWebpage/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.01-Exercise-LogLifecycle/app/src/main/java/com/example/android/lifecycle/MainActivity.java" afterPath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.01-Exercise-LogLifecycle/app/src/main/java/com/example/android/lifecycle/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.01-Exercise-LogLifecycle/build.gradle" afterPath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.01-Exercise-LogLifecycle/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.01-Exercise-LogLifecycle/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.01-Exercise-LogLifecycle/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.02-Exercise-PersistData/app/src/main/java/com/example/android/lifecycle/MainActivity.java" afterPath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.02-Exercise-PersistData/app/src/main/java/com/example/android/lifecycle/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.02-Exercise-PersistData/build.gradle" afterPath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.02-Exercise-PersistData/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.02-Exercise-PersistData/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.02-Exercise-PersistData/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.03-Exercise-FixLifecycleDisplayBug/app/build.gradle" afterPath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.03-Exercise-FixLifecycleDisplayBug/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.03-Exercise-FixLifecycleDisplayBug/app/src/main/java/com/example/android/lifecycle/MainActivity.java" afterPath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.03-Exercise-FixLifecycleDisplayBug/app/src/main/java/com/example/android/lifecycle/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.03-Exercise-FixLifecycleDisplayBug/build.gradle" afterPath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.03-Exercise-FixLifecycleDisplayBug/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.03-Exercise-FixLifecycleDisplayBug/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson05a-Android-Lifecycle/T05a.03-Exercise-FixLifecycleDisplayBug/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson05b-Smarter-GitHub-Repo-Search/T05b.01-Exercise-SaveResults/app/src/main/java/com/example/android/asynctaskloader/MainActivity.java" afterPath="$PROJECT_DIR$/Lesson05b-Smarter-GitHub-Repo-Search/T05b.01-Exercise-SaveResults/app/src/main/java/com/example/android/asynctaskloader/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson05b-Smarter-GitHub-Repo-Search/T05b.01-Exercise-SaveResults/build.gradle" afterPath="$PROJECT_DIR$/Lesson05b-Smarter-GitHub-Repo-Search/T05b.01-Exercise-SaveResults/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson05b-Smarter-GitHub-Repo-Search/T05b.01-Exercise-SaveResults/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson05b-Smarter-GitHub-Repo-Search/T05b.01-Exercise-SaveResults/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson05b-Smarter-GitHub-Repo-Search/T05b.02-Exercise-AddAsyncTaskLoader/app/src/main/java/com/example/android/asynctaskloader/MainActivity.java" afterPath="$PROJECT_DIR$/Lesson05b-Smarter-GitHub-Repo-Search/T05b.02-Exercise-AddAsyncTaskLoader/app/src/main/java/com/example/android/asynctaskloader/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson05b-Smarter-GitHub-Repo-Search/T05b.02-Exercise-AddAsyncTaskLoader/build.gradle" afterPath="$PROJECT_DIR$/Lesson05b-Smarter-GitHub-Repo-Search/T05b.02-Exercise-AddAsyncTaskLoader/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson05b-Smarter-GitHub-Repo-Search/T05b.02-Exercise-AddAsyncTaskLoader/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson05b-Smarter-GitHub-Repo-Search/T05b.02-Exercise-AddAsyncTaskLoader/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.01-Exercise-SetupTheActivity/app/build.gradle" afterPath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.01-Exercise-SetupTheActivity/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.01-Exercise-SetupTheActivity/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.01-Exercise-SetupTheActivity/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.01-Exercise-SetupTheActivity/app/src/main/java/android/example/com/visualizerpreferences/VisualizerActivity.java" afterPath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.01-Exercise-SetupTheActivity/app/src/main/java/android/example/com/visualizerpreferences/VisualizerActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.01-Exercise-SetupTheActivity/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.01-Exercise-SetupTheActivity/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.01-Exercise-SetupTheActivity/build.gradle" afterPath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.01-Exercise-SetupTheActivity/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.01-Exercise-SetupTheActivity/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.01-Exercise-SetupTheActivity/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.02-Exercise-MakeAPreferenceFragment/app/build.gradle" afterPath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.02-Exercise-MakeAPreferenceFragment/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.02-Exercise-MakeAPreferenceFragment/app/src/main/java/android/example/com/visualizerpreferences/SettingsActivity.java" afterPath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.02-Exercise-MakeAPreferenceFragment/app/src/main/java/android/example/com/visualizerpreferences/SettingsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.02-Exercise-MakeAPreferenceFragment/app/src/main/res/layout/activity_settings.xml" afterPath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.02-Exercise-MakeAPreferenceFragment/app/src/main/res/layout/activity_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.02-Exercise-MakeAPreferenceFragment/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.02-Exercise-MakeAPreferenceFragment/app/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.02-Exercise-MakeAPreferenceFragment/build.gradle" afterPath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.02-Exercise-MakeAPreferenceFragment/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.02-Exercise-MakeAPreferenceFragment/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.02-Exercise-MakeAPreferenceFragment/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.03-Exercise-ReadingFromSharedPreferences/app/src/main/java/android/example/com/visualizerpreferences/VisualizerActivity.java" afterPath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.03-Exercise-ReadingFromSharedPreferences/app/src/main/java/android/example/com/visualizerpreferences/VisualizerActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.05-Exercise-PreferenceChangeListener/app/src/main/java/android/example/com/visualizerpreferences/VisualizerActivity.java" afterPath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.05-Exercise-PreferenceChangeListener/app/src/main/java/android/example/com/visualizerpreferences/VisualizerActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.05-Exercise-PreferenceChangeListener/build.gradle" afterPath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.05-Exercise-PreferenceChangeListener/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.05-Exercise-PreferenceChangeListener/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.05-Exercise-PreferenceChangeListener/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.08-Exercise-PreferenceSummary/app/src/main/java/android/example/com/visualizerpreferences/SettingsFragment.java" afterPath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.08-Exercise-PreferenceSummary/app/src/main/java/android/example/com/visualizerpreferences/SettingsFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.08-Exercise-PreferenceSummary/build.gradle" afterPath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.08-Exercise-PreferenceSummary/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.08-Exercise-PreferenceSummary/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson06-Visualizer-Preferences/T06.08-Exercise-PreferenceSummary/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson07-Waitlist/T07.01-Exercise-CreateAContract/app/src/main/java/com/example/android/waitlist/data/WaitlistContract.java" afterPath="$PROJECT_DIR$/Lesson07-Waitlist/T07.01-Exercise-CreateAContract/app/src/main/java/com/example/android/waitlist/data/WaitlistContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson07-Waitlist/T07.01-Exercise-CreateAContract/build.gradle" afterPath="$PROJECT_DIR$/Lesson07-Waitlist/T07.01-Exercise-CreateAContract/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson07-Waitlist/T07.01-Exercise-CreateAContract/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson07-Waitlist/T07.01-Exercise-CreateAContract/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson07-Waitlist/T07.02-Exercise-CreateTheDatabase/app/build.gradle" afterPath="$PROJECT_DIR$/Lesson07-Waitlist/T07.02-Exercise-CreateTheDatabase/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson07-Waitlist/T07.02-Exercise-CreateTheDatabase/app/src/main/java/com/example/android/waitlist/data/WaitlistDbHelper.java" afterPath="$PROJECT_DIR$/Lesson07-Waitlist/T07.02-Exercise-CreateTheDatabase/app/src/main/java/com/example/android/waitlist/data/WaitlistDbHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson07-Waitlist/T07.02-Exercise-CreateTheDatabase/build.gradle" afterPath="$PROJECT_DIR$/Lesson07-Waitlist/T07.02-Exercise-CreateTheDatabase/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson07-Waitlist/T07.02-Exercise-CreateTheDatabase/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Lesson07-Waitlist/T07.02-Exercise-CreateTheDatabase/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson07-Waitlist/T07.03-Exercise-GetAllTheData/app/src/main/java/com/example/android/waitlist/GuestListAdapter.java" afterPath="$PROJECT_DIR$/Lesson07-Waitlist/T07.03-Exercise-GetAllTheData/app/src/main/java/com/example/android/waitlist/GuestListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson07-Waitlist/T07.03-Exercise-GetAllTheData/app/src/main/java/com/example/android/waitlist/MainActivity.java" afterPath="$PROJECT_DIR$/Lesson07-Waitlist/T07.03-Exercise-GetAllTheData/app/src/main/java/com/example/android/waitlist/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson07-Waitlist/T07.03-Exercise-GetAllTheData/app/src/main/java/com/example/android/waitlist/data/TestUtil.java" afterPath="$PROJECT_DIR$/Lesson07-Waitlist/T07.03-Exercise-GetAllTheData/app/src/main/java/com/example/android/waitlist/data/TestUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson07-Waitlist/T07.05-Exercise-AddGuests/app/src/main/java/com/example/android/waitlist/GuestListAdapter.java" afterPath="$PROJECT_DIR$/Lesson07-Waitlist/T07.05-Exercise-AddGuests/app/src/main/java/com/example/android/waitlist/GuestListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson07-Waitlist/T07.05-Exercise-AddGuests/app/src/main/java/com/example/android/waitlist/MainActivity.java" afterPath="$PROJECT_DIR$/Lesson07-Waitlist/T07.05-Exercise-AddGuests/app/src/main/java/com/example/android/waitlist/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson08-Quiz-Example/T08.02-Exercise-AddAsyncTaskToRetrieveCursor/app/src/main/java/com/udacity/example/quizexample/MainActivity.java" afterPath="$PROJECT_DIR$/Lesson08-Quiz-Example/T08.02-Exercise-AddAsyncTaskToRetrieveCursor/app/src/main/java/com/udacity/example/quizexample/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson08-Quiz-Example/T08.03-Exercise-FinishQuizExample/app/src/main/java/com/udacity/example/quizexample/MainActivity.java" afterPath="$PROJECT_DIR$/Lesson08-Quiz-Example/T08.03-Exercise-FinishQuizExample/app/src/main/java/com/udacity/example/quizexample/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.01-Exercise-SetupContentProvider/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.01-Exercise-SetupContentProvider/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.01-Exercise-SetupContentProvider/app/src/main/java/com/example/android/todolist/data/TaskContentProvider.java" afterPath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.01-Exercise-SetupContentProvider/app/src/main/java/com/example/android/todolist/data/TaskContentProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.02-Exercise-AddURIsToContract/app/src/main/java/com/example/android/todolist/data/TaskContract.java" afterPath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.02-Exercise-AddURIsToContract/app/src/main/java/com/example/android/todolist/data/TaskContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.03-Exercise-UriMatcher/app/src/androidTest/java/com/example/android/todolist/data/TestTaskContentProvider.java" afterPath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.03-Exercise-UriMatcher/app/src/androidTest/java/com/example/android/todolist/data/TestTaskContentProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.03-Exercise-UriMatcher/app/src/main/java/com/example/android/todolist/data/TaskContentProvider.java" afterPath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.03-Exercise-UriMatcher/app/src/main/java/com/example/android/todolist/data/TaskContentProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.04-Exercise-Insert/app/src/main/java/com/example/android/todolist/AddTaskActivity.java" afterPath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.04-Exercise-Insert/app/src/main/java/com/example/android/todolist/AddTaskActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.04-Exercise-Insert/app/src/main/java/com/example/android/todolist/data/TaskContentProvider.java" afterPath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.04-Exercise-Insert/app/src/main/java/com/example/android/todolist/data/TaskContentProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.05-Exercise-QueryAllTasks/app/src/main/java/com/example/android/todolist/MainActivity.java" afterPath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.05-Exercise-QueryAllTasks/app/src/main/java/com/example/android/todolist/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.05-Exercise-QueryAllTasks/app/src/main/java/com/example/android/todolist/data/TaskContentProvider.java" afterPath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.05-Exercise-QueryAllTasks/app/src/main/java/com/example/android/todolist/data/TaskContentProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.06-Exercise-Delete/app/src/androidTest/java/com/example/android/todolist/data/TestTaskContentProvider.java" afterPath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.06-Exercise-Delete/app/src/androidTest/java/com/example/android/todolist/data/TestTaskContentProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.06-Exercise-Delete/app/src/main/java/com/example/android/todolist/data/TaskContentProvider.java" afterPath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.06-Exercise-Delete/app/src/main/java/com/example/android/todolist/data/TaskContentProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.07-Exercise-SwipeToDelete/app/src/main/java/com/example/android/todolist/MainActivity.java" afterPath="$PROJECT_DIR$/Lesson09-ToDo-List/T09.07-Exercise-SwipeToDelete/app/src/main/java/com/example/android/todolist/MainActivity.java" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="31" />
+    <option name="y" value="23" />
+    <option name="width" value="1375" />
+    <option name="height" value="827" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="AndroidView" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60572ac4-d384-4313-9c22-0beea7ba95e0" name="Default" comment="" />
+      <created>1521813524041</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521813524041</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="31" y="23" width="1375" height="827" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

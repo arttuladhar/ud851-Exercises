@@ -1,36 +1,261 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- TODO (17) Surround the Constraint layout with a ScrollView -->
-<!-- TODO (2) Replace the Relative layout with a ConstraintLayout -->
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fillViewport="true">
 
-    <!-- TODO (3) Create a TextView for the Passenger label and name -->
-    <!-- TODO (4) Use tool:text to set the text value -->
+    <!-- DONE TODO (2) Replace the Relative layout with a ConstraintLayout -->
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <!-- TODO (5) Create an ImageView for the left rectangle -->
-    <!-- TODO (6) Set the background to the shape_rectangle_stroke drawable -->
+        <!-- DONE TODO (3) Create a TextView for the Passenger label and name -->
+        <TextView
+            android:id="@+id/txtPassengerNameLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/passenger_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            />
 
-    <!-- TODO (7) Create an ImageView for the divider -->
+        <TextView
+            android:id="@+id/txtPassengerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            tools:text="@string/passenger_name"
+            app:layout_constraintStart_toStartOf="@+id/txtPassengerNameLabel"
+            app:layout_constraintTop_toBottomOf="@+id/txtPassengerNameLabel"
+            android:layout_marginLeft="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/colorPrimary"
+            />
 
-    <!-- TODO (8) Create an ImageView for the rightRectangle -->
+        <ImageView
+            android:id="@+id/imgRectangleLeft"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtPassengerName"
+            app:srcCompat="@drawable/shape_rectangle_stroke" />
 
-    <!-- TODO (9) Create a TextView for the origin code, the destination code and the flight code -->
+        <ImageView
+            android:id="@+id/imgRectangleRight"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtPassengerName"
+            app:srcCompat="@drawable/shape_rectangle_stroke" />
 
-    <!-- TODO (15) Import the plane image SVG file into the drawable directory and name it art_plane -->
-    <!-- TODO (16) Create an ImageView for the plane and set the background to art_plane drawable -->
+        <!-- DONE TODO (4) Use tool:text to set the text value -->
 
-    <!-- TODO (10) Create a TextView for the time texts and their corresponding labels -->
+        <!-- DONE TODO (5) Create an ImageView for the left rectangle -->
 
-    <!-- TODO (11) Create an ImageView for the blue table's header -->
+        <!-- DONE TODO (6) Set the background to the shape_rectangle_stroke drawable -->
 
-    <!-- TODO (12) Create an ImageView for the blue table's body -->
+        <!-- TODO (7) Create an ImageView for the divider -->
 
-    <!-- TODO (13) Create a TextView for each of the labels and text fields in the blue table -->
+        <TextView
+            android:id="@+id/textViewOrg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imgRectangleRight"
+            app:layout_constraintEnd_toEndOf="@+id/imgRectangleRight"
+            app:layout_constraintStart_toStartOf="@+id/imgRectangleRight"
+            app:layout_constraintTop_toTopOf="@+id/imgRectangleRight"
+            tools:text="ORG" />
 
-    <!-- TODO (14) Create an ImageView for the barcode -->
+        <TextView
+            android:id="@+id/textViewDst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imgRectangleLeft"
+            app:layout_constraintEnd_toEndOf="@+id/imgRectangleLeft"
+            app:layout_constraintStart_toStartOf="@+id/imgRectangleLeft"
+            app:layout_constraintTop_toTopOf="@+id/imgRectangleLeft"
+            tools:text="DST" />
 
-</RelativeLayout>
+        <TextView
+            android:id="@+id/textViewBoardingTimeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/boarding_time_label"
+            app:layout_constraintStart_toStartOf="@+id/textViewBoardingTime"
+            app:layout_constraintTop_toBottomOf="@+id/imgRectangleRight"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            />
+
+        <TextView
+            android:id="@+id/textViewBoardingInLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/boarding_in_label"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgRectangleLeft" />
+
+        <TextView
+            android:id="@+id/textViewBoardingTime4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/boarding_in_time"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:layout_constraintStart_toStartOf="@+id/textViewBoardingInLabel"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBoardingInLabel" />
+
+        <TextView
+            android:id="@+id/textViewArrivalLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/arrival_time_label"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            app:layout_constraintStart_toStartOf="@+id/textViewBoardingTime4"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBoardingTime4" />
+
+        <TextView
+            android:id="@+id/textViewArrival"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/arrival_time"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:layout_constraintStart_toStartOf="@+id/textViewArrivalLabel"
+            app:layout_constraintTop_toBottomOf="@+id/textViewArrivalLabel" />
+
+        <TextView
+            android:id="@+id/textViewBoardingTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/boarding_time"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBoardingTimeLabel" />
+
+        <TextView
+            android:id="@+id/textViewDeparture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/departure_time_label"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBoardingTime" />
+
+        <TextView
+            android:id="@+id/textViewDepartureTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/departure_time"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:layout_constraintStart_toStartOf="@+id/textViewDeparture"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDeparture" />
+
+        <ImageView
+            android:id="@+id/tableHeader"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimaryLight"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDepartureTime" />
+
+        <ImageView
+            android:id="@+id/tableBody"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="24dp"
+            android:background="@color/colorPrimary"
+            app:layout_constraintBottom_toTopOf="@+id/imageView6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tableHeader" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="104dp"
+            android:layout_height="83dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="7dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tableBody"
+            app:srcCompat="@mipmap/barcode" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/black"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewDst"
+            app:layout_constraintEnd_toStartOf="@+id/imgRectangleLeft"
+            app:layout_constraintStart_toEndOf="@+id/imgRectangleRight"
+            app:layout_constraintTop_toTopOf="@+id/textViewOrg" />
+
+        <!-- DONE TODO (8) Create an ImageView for the rightRectangle -->
+
+        <!-- DONE TODO (9) Create a TextView for the origin code, the destination code and the flight code -->
+
+        <!-- TODO (15) Import the plane image SVG file into the drawable directory and name it art_plane -->
+        <!-- TODO (16) Create an ImageView for the plane and set the background to art_plane drawable -->
+
+        <!-- DONE TODO (10) Create a TextView for the time texts and their corresponding labels -->
+
+
+        <!-- DONE TODO (11) Create an ImageView for the blue table's header -->
+
+
+        <!-- DONE TODO (12) Create an ImageView for the blue table's body -->
+
+        <!-- DONE TODO (13) Create a TextView for each of the labels and text fields in the blue table -->
+
+        <!-- DONE TODO (14) Create an ImageView for the barcode -->
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
+
+
 

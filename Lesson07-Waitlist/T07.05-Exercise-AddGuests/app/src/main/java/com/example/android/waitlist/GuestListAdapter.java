@@ -44,11 +44,14 @@ public class GuestListAdapter extends RecyclerView.Adapter<GuestListAdapter.Gues
         // Update the view holder with the information needed to display
         String name = mCursor.getString(mCursor.getColumnIndex(WaitlistContract.WaitlistEntry.COLUMN_GUEST_NAME));
         int partySize = mCursor.getInt(mCursor.getColumnIndex(WaitlistContract.WaitlistEntry.COLUMN_PARTY_SIZE));
+        long id = mCursor.getLong(mCursor.getColumnIndex(WaitlistContract.WaitlistEntry._ID));
 
         // Display the guest name
         holder.nameTextView.setText(name);
         // Display the party count
         holder.partySizeTextView.setText(String.valueOf(partySize));
+
+        holder.itemView.setTag(id);
     }
 
 
@@ -57,6 +60,15 @@ public class GuestListAdapter extends RecyclerView.Adapter<GuestListAdapter.Gues
         return mCursor.getCount();
     }
 
+    public void swapCursor(Cursor cursor){
+        if (mCursor != null) {
+            mCursor.close();
+        }
+        mCursor = cursor;
+        if (mCursor != null){
+            this.notifyDataSetChanged();;
+        }
+    }
     // TODO (15) Create a new function called swapCursor that takes the new cursor and returns void
 
     // TODO (16) Inside, check if the current cursor is not null, and close it if so

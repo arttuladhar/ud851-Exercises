@@ -15,8 +15,12 @@
  */
 package com.example.android.implicitintents;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.app.ShareCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -36,9 +40,11 @@ public class MainActivity extends AppCompatActivity {
      */
     public void onClickOpenWebpageButton(View v) {
         // TODO (5) Create a String that contains a URL ( make sure it starts with http:// or https:// )
+        String webURL = "http://www.aayushtuladhar.com";
 
         // TODO (6) Replace the Toast with a call to openWebPage, passing in the URL String from the previous step
-        Toast.makeText(this, "TODO: Open a web page when this button is clicked", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "TODO: Open a web page when this button is clicked", Toast.LENGTH_SHORT).show();
+        openWebPage(webURL);
     }
 
     /**
@@ -48,7 +54,11 @@ public class MainActivity extends AppCompatActivity {
      * @param v Button that was clicked.
      */
     public void onClickOpenAddressButton(View v) {
-        Toast.makeText(this, "TODO: Open a map when this button is clicked", Toast.LENGTH_SHORT).show();
+        String addressString = "1600 Amphitheatre Parkway, CA";
+
+        Uri gmmIntentUri = Uri.parse("geo:0,0?q=4815 28th Avenue South, Minneapolis, MN");
+
+        showMap(gmmIntentUri);
     }
 
     /**
@@ -58,7 +68,10 @@ public class MainActivity extends AppCompatActivity {
      * @param v Button that was clicked.
      */
     public void onClickShareTextButton(View v) {
-        Toast.makeText(this, "TODO: Share text when this is clicked", Toast.LENGTH_LONG).show();
+
+        String text = "I want to Share this";
+        shareText(text);
+
     }
 
     /**
@@ -66,9 +79,8 @@ public class MainActivity extends AppCompatActivity {
      * similar to what I've done above. You can view a list of implicit Intents on the Common
      * Intents page from the developer documentation.
      *
-     * @see <http://developer.android.com/guide/components/intents-common.html/>
-     *
      * @param v Button that was clicked.
+     * @see <http://developer.android.com/guide/components/intents-common.html/>
      */
     public void createYourOwn(View v) {
         Toast.makeText(this,
@@ -77,12 +89,41 @@ public class MainActivity extends AppCompatActivity {
                 .show();
     }
 
-    // TODO (1) Create a method called openWebPage that accepts a String as a parameter
+    // DONE TODO (1) Create a method called openWebPage that accepts a String as a parameter
     // Do steps 2 - 4 within openWebPage
+    private void openWebPage(String url) {
+        Uri websiteUri = Uri.parse(url);
+        Intent openWebPageIntent = new Intent(Intent.ACTION_VIEW, websiteUri);
+        if (openWebPageIntent.resolveActivity(getPackageManager()) != null) {
+            startActivity(openWebPageIntent);
+        }
 
-        // TODO (2) Use Uri.parse to parse the String into a Uri
+    }
 
-        // TODO (3) Create an Intent with Intent.ACTION_VIEW and the webpage Uri as parameters
+    // DONE TODO (2) Use Uri.parse to parse the String into a Uri
 
-        // TODO (4) Verify that this Intent can be launched and then call startActivity
+    // DONE TODO (3) Create an Intent with Intent.ACTION_VIEW and the webpage Uri as parameters
+
+    // done TODO (4) Verify that this Intent can be launched and then call startActivity
+
+    private void showMap(Uri geoLocationUri) {
+        Intent geoMapIntent = new Intent(Intent.ACTION_VIEW );
+        Log.i(MainActivity.class.getCanonicalName(), "geoLocation: " + geoLocationUri);
+        geoMapIntent.setData(geoLocationUri);
+
+        if (geoMapIntent.resolveActivity(getPackageManager()) != null) {
+            startActivity(geoMapIntent);
+        }
+    }
+
+    private void shareText(String text) {
+
+        String mediaType = "text/plain";
+
+        ShareCompat.IntentBuilder.from(this)
+                .setType(mediaType)
+                .setChooserTitle("Sharing is Fun")
+                .setText(text)
+                .startChooser();
+    }
 }

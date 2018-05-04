@@ -17,17 +17,17 @@ public class TestUtil {
         List<ContentValues> list = new ArrayList<ContentValues>();
 
         ContentValues cv = new ContentValues();
-        cv.put(WaitlistContract.WaitlistEntry.COLUMN_GUEST_NAME, "John");
+        cv.put(WaitlistContract.WaitlistEntry.COLUMN_GUEST_NAME, "Aayush");
         cv.put(WaitlistContract.WaitlistEntry.COLUMN_PARTY_SIZE, 12);
         list.add(cv);
 
         cv = new ContentValues();
-        cv.put(WaitlistContract.WaitlistEntry.COLUMN_GUEST_NAME, "Tim");
+        cv.put(WaitlistContract.WaitlistEntry.COLUMN_GUEST_NAME, "Baadal");
         cv.put(WaitlistContract.WaitlistEntry.COLUMN_PARTY_SIZE, 2);
         list.add(cv);
 
         cv = new ContentValues();
-        cv.put(WaitlistContract.WaitlistEntry.COLUMN_GUEST_NAME, "Jessica");
+        cv.put(WaitlistContract.WaitlistEntry.COLUMN_GUEST_NAME, "Uttam");
         cv.put(WaitlistContract.WaitlistEntry.COLUMN_PARTY_SIZE, 99);
         list.add(cv);
 
